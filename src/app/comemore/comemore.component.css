@@ -1,0 +1,41 @@
+.comemore{
+    padding: 4rem 3rem;
+    height: 100%;
+    background-color: var(--color-pink);
+}
+.comemore-box{
+    display: flex;
+    align-items: center;
+}
+.comemore-box-img{
+    width: 55%;
+}
+.comemore-box-img img{
+    width: 60%;
+    height: auto;
+}
+.comemore-box-txt{
+    width: 45%;
+}
+.comemore-box-txt h2{
+    width: 80%;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.comemore-box-txt p{
+    width: 80%;
+    margin: 2rem 0;
+}
+.comemore-btn{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+}
+.comemore-btn:hover{
+    cursor: pointer;
+}

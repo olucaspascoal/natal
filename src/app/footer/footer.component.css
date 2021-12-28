@@ -1,0 +1,22 @@
+footer{
+    padding: 2rem 3rem;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+}
+.footer-esq{
+    display: flex;
+    align-items: center;
+}
+.footer-dir{
+    display: flex;
+}
+.footer-dir-item{
+    border-radius: 50%;
+    padding: .5rem;
+    margin-left: 1rem;
+    background-color: rgba(218, 37, 53, .2);
+}
+.footer-dir-item img{
+    display: block;
+}

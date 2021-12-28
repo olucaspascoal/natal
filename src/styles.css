@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ScrollBar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #ebe4e4; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background:#f73e4e; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-red); 
+}
+
+/* Cores Globais */
+:root{
+  --color-white: #F9F9F9;
+  --color-gray:  #8D8D8D;
+  --color-gray-2:#404040;
+  --color-black: #161212;
+  --color-red:   #DA2535;
+  --color-pink:  #F7C7B9;
+}

@@ -1,0 +1,36 @@
+.acessorios{
+    background-color: var(--color-white);
+    padding: 2rem 3rem;
+    height: 100%;
+    
+}
+.text-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-main h2{
+    color: var(--color-black);
+    margin-bottom: 2rem;
+}
+.text-main p{
+    width: 50%;
+    color: var(--color-gray-2);
+    text-align: center;
+}
+.acessorios-box{
+    display: flex;
+    margin: 2rem 0;
+}
+.acessorios-box-item{
+    display: flex;
+    flex-direction: column;
+    /* height: 5rem; */
+    width: 25%;
+    align-items: center;
+}
+.acessorios-box-item p{
+    color: var(--color-gray);
+    text-align: center;
+    width: 70%;
+}
